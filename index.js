@@ -12,9 +12,6 @@ student2.setDateOfBirth(2000)
 school.addStudent(student1)
 school.addStudent(student2)
 
-console.log(student1)
-console.log(student2)
-
 //we cannot add one student twice
 school.addStudent(student1)
 
@@ -35,7 +32,6 @@ console.log(school.getCourses().length) // 2
 
 school.addStudentGrade(student1, course1, 4)
 school.addStudentGrade(student1, course2, 5)
-
 school.addStudentGrade(student2, course1, 5)
 
 console.log(student1)
